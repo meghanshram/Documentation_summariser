@@ -1,0 +1,72 @@
+/* General container styles */
+#container {
+  width: 400px;
+  padding: 15px;
+  background-color: #000000; /* Black background */
+  border: 1px solid #444444; /* Subtle dark border */
+  border-radius: 10px; /* Rounded edges */
+  font-family: Arial, sans-serif;
+  color: #ffffff; /* White text */
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2); /* Subtle shadow */
+  text-align: center; /* Center content */
+  font-weight: bold;
+}
+
+h3{
+  font-size: 18px;
+
+}
+
+/* Textarea styles */
+textarea {
+  width: 80%;
+  height: 120px;
+  border: 1px solid #444444;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 18px; /* Increased font size */
+  color: #ffffff; /* White text */
+  background-color: #222222; /* Dark grey background */
+  resize: none;
+  outline: none;
+  font-weight: bold;
+}
+
+/* Button styles */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background-color: #007bff; /* Blue background */
+  color: #ffffff; /* White text */
+  border: none;
+  border-radius: 10px;
+  font-size: 18px; /* Increased font size */
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+/* Response box styles */
+#response {
+  text-align: left;
+  font-weight: bold;
+  margin-top: 15px;
+  padding: 15px;
+  background-color: #222222; /* Dark grey background */
+  border: 1px solid #444444;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 16px; /* Larger font size */
+  color: #ffffff; /* White text */
+  display: none;
+  word-wrap: break-word; /* Ensure long text wraps */
+  overflow-y: auto; /* Add scroll if content overflows vertically */
+  max-height: 200px; /* Limit the height of the box */
+  max-width: 100%; /* Prevent horizontal overflow */
+  white-space: pre-wrap; /* Preserve whitespace and wrap text */
+}
+
